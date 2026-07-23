@@ -4,10 +4,10 @@
 
 # https://github.com/glanceapp/glance/blob/main/docs/configuration.md#authentication
 auth:
-  secret-key: # this must be set to a random value generated using the secret:make CLI command
+  secret-key: ${GLANCE_SECRET_KEY}
   users:
-    User:
-      password-hash: #passwordhash
+    ${GLANCE_USERNAME}:
+      password-hash: ${GLANCE_PASSWORD_HASH}
 
 # =======================
 # BRANDING SETTINGS
