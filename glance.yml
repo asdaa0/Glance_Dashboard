@@ -1,4 +1,14 @@
 # =======================
+# SERVER SETTINGS
+# =======================
+
+# https://github.com/glanceapp/glance/blob/main/docs/configuration.md#server
+server:
+  proxied: true
+  base-url: /glance
+  port: ${PORT}
+
+# =======================
 # AUTHENTICATION SETTINGS
 # =======================
 
@@ -34,6 +44,6 @@ theme:
 
 pages:
   - $include: home.yml
-  - $include: hosting.yml
-  - $include: games.yml
-  - $include: sports.yml
+#  - $include: hosting.yml
+#  - $include: games.yml
+#  - $include: sports.yml
