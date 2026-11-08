@@ -17,7 +17,7 @@
                 chart-link: https://www.tradingview.com/chart/?symbol=INDEX:BTCUSD
               - symbol: NVDA
                 name: NVIDIA
-              - symbol: USD-TRY
+              - symbol: USDTRY=X
                 name: USD/TRY
 
 
