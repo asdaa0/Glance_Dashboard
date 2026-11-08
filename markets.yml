@@ -1,0 +1,41 @@
+# =======================
+# MARKETS PAGE
+# =======================
+- name: Markets
+  columns:
+    - size: small
+      widgets:
+        - type: markets
+          title: Indices
+          markets:
+            - symbol: SPY
+              name: S&P 500
+            - symbol: DX-Y.NYB
+              name: Dollar Index
+        - type: markets
+          title: Crypto
+          markets:
+            - symbol: BTC-USD
+              name: Bitcoin
+            - symbol: ETH-USD
+              name: Ethereum
+    - size: full
+      widgets:
+        - type: markets
+          title: Stocks
+          sort-by: absolute-change
+          markets:
+            - symbol: NVDA
+              name: NVIDIA
+            - symbol: MSFT
+              name: Microsoft
+            - symbol: GOOGL
+              name: Google
+            - symbol: AMD
+              name: AMD
+            - symbol: TSLA
+              name: Tesla
+            - symbol: INTC
+              name: Intel
+            - symbol: META
+              name: Meta

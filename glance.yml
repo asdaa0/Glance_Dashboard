@@ -44,6 +44,8 @@ theme:
 
 pages:
   - $include: home.yml
+  - $include: markets.yml
+  - $include: rss.yml
 #  - $include: hosting.yml
 #  - $include: games.yml
 #  - $include: sports.yml

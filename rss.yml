@@ -1,0 +1,64 @@
+# =======================
+# RSS PAGE
+# =======================
+- name: RSS
+  columns:
+
+    # -----------------------
+    # FULL COLUMN
+    # -----------------------
+    - size: full
+      widgets:
+
+        - type: group
+          widgets:
+            - type: rss
+              title: Hacker News
+              limit: 20
+              collapse-after: 10
+              cache: 1h
+              feeds:
+                - url: https://hnrss.org/frontpage
+
+            - type: rss
+              title: Reddit - Programming
+              limit: 15
+              collapse-after: 8
+              cache: 1h
+              feeds:
+                - url: https://www.reddit.com/r/programming/.rss
+
+            - type: rss
+              title: The Verge
+              limit: 15
+              collapse-after: 8
+              cache: 2h
+              feeds:
+                - url: https://www.theverge.com/rss/index.xml
+
+        - type: group
+          widgets:
+            - type: rss
+              title: Ars Technica
+              limit: 15
+              collapse-after: 8
+              cache: 2h
+              feeds:
+                - url: https://feeds.arstechnica.com/arstechnica/index
+
+            - type: rss
+              title: TechCrunch
+              limit: 15
+              collapse-after: 8
+              cache: 2h
+              feeds:
+                - url: https://techcrunch.com/feed/
+
+            - type: rss
+              title: YouTube - Programming Channels
+              limit: 15
+              collapse-after: 8
+              cache: 4h
+              feeds:
+                - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCWv3vGHNqM2WAScq6GITZDQ
+                - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EVdhUK0BQ
