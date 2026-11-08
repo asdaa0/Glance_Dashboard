@@ -17,9 +17,8 @@
                 chart-link: https://www.tradingview.com/chart/?symbol=INDEX:BTCUSD
               - symbol: NVDA
                 name: NVIDIA
-              - symbol: AAPL
-                symbol-link: https://www.google.com/search?tbm=nws&q=apple
-                name: Apple         
+              - symbol: USD-TRY
+                name: USD/TRY
 
 
     columns:
