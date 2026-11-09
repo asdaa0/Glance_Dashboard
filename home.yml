@@ -17,28 +17,28 @@
               links:
                 - title: Ultra Control Panel
                   url: https://cp.ultra.cc/#/userservice/9312ee0b-5ea9-48ad-a129-e7623086f83e
-                  icon: si:ultra
+                  icon: https://www.google.com/s2/favicons?domain=cp.ultra.cc&size=64
                 - title: YouTube
                   url: https://www.youtube.com/
-                  icon: si:youtube
+                  icon: https://www.google.com/s2/favicons?domain=youtube.com&size=64
 
             - title: Torrents
               links:
                 - title: TorrentLeech
                   url: https://www.torrentleech.org/
-                  icon: si:torrentleech
+                  icon: https://www.google.com/s2/favicons?domain=torrentleech.org&size=64
                 - title: MyAnonamouse
                   url: https://www.myanonamouse.net
-                  icon: si:myanonamouse
+                  icon: https://www.google.com/s2/favicons?domain=myanonamouse.net&size=64
                 - title: Redacted
                   url: https://redacted.sh/
-                  icon: si:redacted
+                  icon: https://www.google.com/s2/favicons?domain=redacted.sh&size=64
                 - title: SeedPool
                   url: https://seedpool.org/
-                  icon: si:seedpool
+                  icon: https://www.google.com/s2/favicons?domain=seedpool.org&size=64
                 - title: TurkSeed
                   url: https://turkseed.com/
-                  icon: si:turkseed
+                  icon: https://www.google.com/s2/favicons?domain=turkseed.com&size=64
                 - title: FileList
                   url: https://filelist.io/
-                  icon: si:filelist
+                  icon: https://www.google.com/s2/favicons?domain=filelist.io&size=64
