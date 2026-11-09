@@ -17,20 +17,28 @@
               links:
                 - title: Ultra Control Panel
                   url: https://cp.ultra.cc/#/userservice/9312ee0b-5ea9-48ad-a129-e7623086f83e
+                  icon: si:ultra
                 - title: YouTube
                   url: https://www.youtube.com/
+                  icon: si:youtube
 
             - title: Torrents
               links:
                 - title: TorrentLeech
                   url: https://www.torrentleech.org/
+                  icon: si:torrentleech
                 - title: MyAnonamouse
                   url: https://www.myanonamouse.net
+                  icon: si:myanonamouse
                 - title: Redacted
                   url: https://redacted.sh/
+                  icon: si:redacted
                 - title: SeedPool
                   url: https://seedpool.org/
+                  icon: si:seedpool
                 - title: TurkSeed
                   url: https://turkseed.com/
+                  icon: si:turkseed
                 - title: FileList
                   url: https://filelist.io/
+                  icon: si:filelist
